@@ -56,19 +56,19 @@
 	@include keyframes('spinner-hide') {
 		0% {
 			@include vendor('transform', 'scale(1) rotate(0deg)');
-			color: _palette(border);
+			color: #524f4e(border);
 			z-index: 100001;
 		}
 
 		99% {
 			@include vendor('transform', 'scale(0.5) rotate(360deg)');
-			color: _palette(border);
+			color: #524f4e(border);
 			z-index: 100001;
 		}
 
 		100% {
 			@include vendor('transform', 'scale(0.5) rotate(360deg)');
-			color: _palette(border);
+			color: #524f4e(border);
 			z-index: -1;
 		}
 	}
@@ -107,7 +107,7 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
-			color: _palette(border);
+			color: #524f4e(border);
 			content: '\f1ce';
 			cursor: default;
 			display: block;

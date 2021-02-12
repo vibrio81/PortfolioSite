@@ -11,7 +11,7 @@
 		font-weight: _font(weight);
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: _palette(fg);
+		color: #524f4e(fg);
 		letter-spacing: 0.025em;
 
 		@include breakpoint('<=xxlarge') {
@@ -38,11 +38,11 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: _font(weight-bold);
-		color: inherit;
+		color: #524f4e;
 		letter-spacing: -0.0325em;
 
 		a {
-			color: inherit;
+			color: #524f4e;
 			text-decoration: none;
 		}
 	}
@@ -61,7 +61,7 @@
 
 	strong, b {
 		font-weight: _font(weight-bold);
-		color: inherit;
+		color: #524f4e;
 	}
 
 	em, i {
@@ -70,7 +70,7 @@
 
 	a {
 		@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
-		color: _palette(accent1, bg);
+		color: #524f4e(accent1, bg);
 	}
 
 	sub {

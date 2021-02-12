@@ -221,7 +221,7 @@ input, select, textarea {
 			-webkit-transform: scale(1) rotate(0deg);
 			-ms-transform: scale(1) rotate(0deg);
 			transform: scale(1) rotate(0deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: 100001;
 		}
 
@@ -230,7 +230,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: 100001;
 		}
 
@@ -239,7 +239,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color:#272f36;
 			z-index: -1;
 		}
 	}
@@ -250,7 +250,7 @@ input, select, textarea {
 			-webkit-transform: scale(1) rotate(0deg);
 			-ms-transform: scale(1) rotate(0deg);
 			transform: scale(1) rotate(0deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: 100001;
 		}
 
@@ -259,7 +259,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: 100001;
 		}
 
@@ -268,7 +268,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: -1;
 		}
 	}
@@ -279,7 +279,7 @@ input, select, textarea {
 			-webkit-transform: scale(1) rotate(0deg);
 			-ms-transform: scale(1) rotate(0deg);
 			transform: scale(1) rotate(0deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: 100001;
 		}
 
@@ -288,7 +288,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: 100001;
 		}
 
@@ -297,7 +297,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: -1;
 		}
 	}
@@ -308,7 +308,7 @@ input, select, textarea {
 			-webkit-transform: scale(1) rotate(0deg);
 			-ms-transform: scale(1) rotate(0deg);
 			transform: scale(1) rotate(0deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: 100001;
 		}
 
@@ -317,7 +317,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: 100001;
 		}
 
@@ -326,7 +326,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color: #272f36;
 			z-index: -1;
 		}
 	}
@@ -2051,11 +2051,13 @@ input, select, textarea {
 			}
 
 		.main.dark {
-			color: #ffffff;
+			text-shadow: 1px 1px #ffffff !important;
+			color: #302c2b;
 		}
 
 			.main.dark a {
 				color: inherit;
+				
 			}
 
 			.main.dark .button.style2 {
